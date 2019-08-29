@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+// import ArtPage from './components/artPage'
+import NickTest from './components/NickTest'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <>
+        {/* <ArtPage /> */}
+        <NickTest />
+      </>
+    )
   }
 }
 
